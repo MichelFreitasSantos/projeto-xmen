@@ -8,13 +8,13 @@ personagens.forEach((personagem) => {
         }
 
         removerSelecaoDoPersonagem();
-
+        
         personagem.classList.add('selecionado');
-
+        
         alterarImgPersonagemGrande(personagem);
-
+        
         alterarNomePersonagemGrande(personagem);
-
+        
         alterarDescricaoPersonagemGrande(personagem);
     })
 })
